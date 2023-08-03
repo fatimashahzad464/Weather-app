@@ -12,13 +12,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000;
+    background-color: rgb(74, 71, 71);
 }
 
 .container{
     width: 400px;
     height: min-content;
-    background-color: #fff;
+    background-color: #000;
     border-radius: 12px;
     padding: 28px;
 }
@@ -36,7 +36,7 @@ body{
     font-size: 20px;
     text-transform: capitalize;
     color: #000;
-    background-color: #e6f5fb;
+    background-color: #ffffff;
     padding: 12px 16px;
     border-radius: 14px;
 }
@@ -79,12 +79,14 @@ body{
     font-size: 40px;
     font-weight: 800;
     position: relative;
+    color: #fff;
 }
 
 .weather-box .temperature sup{
     font-size: 20px;
     position: absolute;
     font-weight: 600;
+    color: #fff;
 }
 
 .weather-box .description{
@@ -98,6 +100,7 @@ body{
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+    color: #fff;
 }
 
 .humidity, .wind{
